@@ -1,0 +1,35 @@
+:root {
+	--active-input-border: hsl(249, 99%, 64%) to hsl(278, 94%, 30%);
+	--input-error: hsl(0, 100%, 66%);
+	--white: hsl(0, 0%, 100%);
+	--light-grayish-violet: hsl(270, 3%, 87%);
+	--dark-grayish-violet: hsl(279, 6%, 55%);
+	--very-dark-violet: hsl(278, 68%, 11%);
+	--font-size: 18px;
+	--font-family: 'Space Grotesk', sans-serif;
+}
+
+* {
+	font-family: var(--font-family);
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+.main-container {
+	min-width: 375px;
+	max-width: 1440px;
+	height: 100vh;
+	display: grid;
+	grid-template-rows: 35% 1fr;
+}
+
+.cards-container {
+	height: 100%;
+	border: 1px solid red;
+}
+
+.form-container {
+	height: 100%;
+	border: 1px solid blue;
+}

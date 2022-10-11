@@ -1,0 +1,19 @@
+{
+  "name": "interactive-card-details",
+  "version": "1.0.0",
+  "description": "Interactive Card Details Form",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/devRony1710/Interactive-card-details.git"
+  },
+  "author": "Rony Antolinez",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/devRony1710/Interactive-card-details/issues"
+  },
+  "homepage": "https://github.com/devRony1710/Interactive-card-details#readme"
+}
