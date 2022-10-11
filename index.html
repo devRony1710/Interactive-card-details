@@ -37,7 +37,28 @@
 		</section>
 
 		<section class="form-container">
+			<form action="">
+					<label class="label" for="">CARDHOLDER NAME</label>
+					<input type="text" name="" id="" placeholder="e.g. Jane Appleseed">
+				
+					<label class="label" for="">CARD NUMBER</label>
+					<input type="number" name="" id="" placeholder="e.g. 1234 5678 9123 0000">
 
+					<div class="expiration-cvc-container">
+						<label class="label" for="">
+							EXP. DATE (MM/YY) 
+							<span >CVC</span>
+						</label>
+						
+						<div class="expiration-cvc-inputs">
+							<input id="month-input" type="number" placeholder="MM">
+							<input id="year-input" type="number" placeholder="YY">
+							<input id="cvc-input" type="number" placeholder="e.g. 123">
+						</div>
+					</div>
+
+					<button>Confirm</button>
+			</form>
 		</section>
 
 	</main>

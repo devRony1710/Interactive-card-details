@@ -83,6 +83,61 @@
 }
 
 .form-container {
-	height: 100%;
-	border: 1px solid blue;
+	margin-top: 15%;
+}
+
+.form-container form {
+	width: 90%;
+	padding: 10px;
+	margin: 0 auto;
+	display: flex;
+	flex-direction: column;
+}
+
+.label {
+	margin-top: 20px;
+	color: var(--very-dark-violet);
+	font-weight: bold;
+}
+
+.expiration-cvc-container {
+	margin-top: 20px;
+}
+
+input {
+	margin-top: 10px;
+	border: 1px solid var(--light-grayish-violet);
+	border-radius: 5px;
+	height: 35px;
+}
+
+input::placeholder {
+	padding-left: 10px;
+	font-size: 16px;
+	font-weight: bold;
+	color: var(--dark-grayish-violet);
+}
+
+.expiration-cvc-inputs input{
+	width: 20%;
+}
+
+.expiration-cvc-inputs input::placeholder{
+	padding: 0;
+	text-align: center;
+}
+
+#cvc-input {
+	margin-left: 10px;
+	width: calc(50% + 14px);
+}
+
+button {
+	margin-top: 40px;
+	height: 50px;
+	font-size: var(--font-size);
+	background-color: var(--very-dark-violet);
+	border: none;
+	border-radius: 8px;
+	color: var(--white);
 }
